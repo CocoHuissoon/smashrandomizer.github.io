@@ -4,5 +4,5 @@
         var nr = Math.floor(Math.random() * 75);
     
     document.getElementById("random").innerHTML =  smashChars[nr];
-    document.getElementById("charpic").src= "../../images/charpics/" + pics[nr] +".png";
+    document.getElementById("charpic").src= "images/charpics/" + pics[nr] +".png";
 }

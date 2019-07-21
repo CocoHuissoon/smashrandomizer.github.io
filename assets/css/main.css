@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+img {
+	max-width:auto;
+	max-height:auto;
+	object-fit: cover;
+    overflow: hidden;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2632,6 +2639,7 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		object-fit: cover
 	}
 
 		.image img {
