@@ -21,13 +21,16 @@
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Smash Randomizer</h1>
-                            <p class="major" id="random"></p>
+                            <p class="major" id="random">Push the button</p>
                             <ul>
-								<li><a href="#first" class="button big wide smooth-scroll-middle" onclick="randomize">Randomize!</a></li>
+								<li>
+                                    <button 
+                                        onclick="randomize()"    class="button big wide smooth-scroll-middle" id="button">Randomize!</button>
+                                </li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/banner.jpg" alt="" />
+							<img id="charpic" src="images/charpics/logo.png" alt="" />
 						</div>
 					</section>
 	
@@ -41,7 +44,8 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script><script src="assets/js/randomizer.js"></script>
+			<script src="assets/js/main.js"></script><script src="assets/js/randomizer.js">
+        </script>
 
 	</body>
 </html>
