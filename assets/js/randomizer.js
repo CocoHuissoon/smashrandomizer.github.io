@@ -6,3 +6,18 @@ function randomize() {
     document.getElementById("charpic").src = "images/charpics/" + pics[nr] + ".png";
     document.getElementById("random").innerHTML = smashChars[nr];
 }
+
+function fillTable(){
+    var table = document.getElementById('smashTable');
+
+    for(let i = 0; i < smashChars.length; i++){
+         var newRow = table.insertRow(table.length);
+         var name = newRow.insertCell();
+         var winLoss = newRow.insertCell();
+         name.innerHTML = smashChars[i];
+         winLoss.innerHTML = 0;
+        // document.write('<tr><td>' + smashChars[i] + '</td></tr>');
+    }
+}
+
+
